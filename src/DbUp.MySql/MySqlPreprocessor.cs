@@ -9,7 +9,7 @@ namespace DbUp.MySql
     public class MySqlPreprocessor : IScriptPreprocessor
     {
         /// <summary>
-        /// Performs some proprocessing step on a PostgreSQL script.
+        /// Performs some proprocessing step on a MySql script.
         /// </summary>
         public string Process(string contents)
         {
